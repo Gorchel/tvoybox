@@ -105,7 +105,7 @@
                         </div>
 
                         <div class="awe-logo logolayout">
-                            <a href="index.html" title="">
+                            <a href="#" title="" id="audio-logo">
                                 <img src="html/hosoren/img/logo2.png" alt="" class="tvoybox" >
                             </a>
                         </div>

@@ -22,4 +22,9 @@ $(document).ready(function() {
 	        }
 	    });		
 	})
+
+	$('#audio-logo').on('click',function(){
+		var audio = document.getElementById('audio');
+		audio.play();
+	});
 });

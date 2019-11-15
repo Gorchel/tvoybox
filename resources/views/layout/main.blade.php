@@ -50,6 +50,8 @@
 
 
 <div id="wrapper">
+    <audio src="/audio/audio.mp4" id="audio"></audio>
+
     @section("content")
 
     @show
