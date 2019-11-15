@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', ['uses' => 'HomeController@index']);
+
+Route::get('box/{id}', ['uses' => 'BoxController@show']);

@@ -16,7 +16,8 @@
                                     </a>
 
                                     <ul class="submenu megamenu">
-                                        <li>
+                                        @include('layout.partial.cart')
+                                        <!-- <li>
                                             <div class="container-fluid">
 
                                                 <ul class="whishlist">
@@ -94,7 +95,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
 
 

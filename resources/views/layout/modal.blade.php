@@ -1,6 +1,4 @@
 <!-- /#wrapper -->
-
-
     <div id="login-popup" class="white-popup login-popup mfp-hide">
         <div role="tabpanel">
             <!-- Nav tabs -->
@@ -88,3 +86,28 @@
             <!-- /.tab-content -->
         </div>
     </div>
+
+<div class="modal fade bd-example-modal-lg" id="show-box-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    
+      <div class="modal-body">
+        <img src="" id="show-box-modal-img" alt="" class="current">
+        <div class="product-price"><span id="show-box-modal-price"></span> грн.</div>
+        <div id="show-box-modal-name" ></div>
+        <div id="show-box-modal-text" >
+            <!-- <span class="amount">Что внутри:</span>
+            <ul style="font-size: 15px" >
+                <li>Какая то штучка</li>
+                <li>Еще какая то штучка</li>
+                <li>Прекрасная штуковина</li>
+            </ul> -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+        <button type="button" class="btn btn-primary">Купить</button>
+      </div>
+    </div>
+  </div>
+</div>

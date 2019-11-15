@@ -1,9 +1,6 @@
 @extends('layout.main')
 
 @section("content")
-
-
-   
     <section>
         <div class="container">
             <div class="padding-vertical-50">
@@ -12,273 +9,35 @@
                     <div class="section-header center">
                         <h2><a name="wereccomended"> Мы рекомендуем</a></h2>
                     </div>
-                    <!-- /.section-header -->
 
                     <div class="products home-products owl-carousel" data-items="4">
+                        @foreach (config('boxes') as $id => $box)
+                            @if (!empty($box['active']) && !empty($box['recommendations']))
+                                <div class="product product-grid show_box" data-id="{{$id}}">
+                                    <div class="product-media">
+                                        <div class="product-thumbnail">
+                                            <a href="#" title="">
+                                                @foreach ($box['images'] as $key => $image)
+                                                    <img src="{{$image}}" alt="" class="{{ $key == 0 ? 'current' : ''}}">
+                                                @endforeach
+                                            </a>
+                                        </div>
+                                    </div>
 
+                                    <div class="product-body">
+                                        <h2 class="product-name">
+                                            <a href="#" title="{{$box['name']}}">{{$box['name']}}</a>
+                                        </h2>
 
-                        <div class="product product-grid">
-                            <div class="product-media">
-                                <div class="product-thumbnail">
-                                    <a href="product-fullwidth.html" title="">
-                                        <img src="html/hosoren/img/samples/products/index/arrivals/1.jpg" alt="" class="current">
-                                        <img src="html/hosoren/img/samples/products/index/clothing/1.jpg" alt="">
-                                    </a>
+                                        <div class="product-price">
+                                            <span class="amount">{{$box['price']}} грн</span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- /.product-thumbnail -->
-
-                            </div>
-                            <!-- /.product-media -->
-
-                            <div class="product-body">
-                                <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Бокс для Неё</a>
-                        </h2>
-                                <!-- /.product-product -->
-
-                                
-                                <div class="product-price">
-                                    <span class="amount">450 грн</span>
-                                </div>
-                                <!-- /.product-price -->
-                            </div>
-                            <!-- /.product-body -->
-                        </div>
-                        <!-- /.product -->
-
-
-
-                        <div class="product product-grid">
-                            <div class="product-media">
-                                <div class="product-thumbnail">
-                                    <a href="product-fullwidth.html" title="">
-                                        <img src="html/hosoren/img/samples/products/index/arrivals/2.jpg" alt="" class="current">
-                                        <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- /.product-thumbnail -->
-
-
-                                
-                            </div>
-                            <!-- /.product-media -->
-
-                            <div class="product-body">
-                                <h2 class="product-name">
-                            <a href="#" title="Goodale Rutledge Navy/White">Для Него</a>
-                        </h2>
-                                <!-- /.product-product -->
-
-                                
-
-                                <div class="product-price">
-
-                                    <span class="amount">500 грн</span>
-
-                                </div>
-                                <!-- /.product-price -->
-                            </div>
-                            <!-- /.product-body -->
-                        </div>
-                        <!-- /.product -->
-
-
-
-                        <div class="product product-grid">
-                            <div class="product-media">
-                                <div class="product-thumbnail">
-                                    <a href="product-fullwidth.html" title="">
-                                        <img src="html/hosoren/img/samples/products/index/arrivals/3.jpg" alt="" class="current">
-                                        <img src="html/hosoren/img/samples/products/index/clothing/3.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- /.product-thumbnail -->
-
-
-                                
-
-                            </div>
-                            <!-- /.product-media -->
-
-                            <div class="product-body">
-                                <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Универсальный</a>
-                        </h2>
-                                <!-- /.product-product -->
-
-                                
-                                <div class="product-price">
-
-                                    <span class="amount">500 грн</span>
-
-                                </div>
-                                <!-- /.product-price -->
-                            </div>
-                            <!-- /.product-body -->
-                        </div>
-                        <!-- /.product -->
-
-
-
-                        <div class="product product-grid">
-                            <div class="product-media">
-                                <div class="product-thumbnail">
-                                    <a href="product-fullwidth.html" title="">
-                                        <img src="html/hosoren/img/samples/products/index/arrivals/4.jpg" alt="" class="current">
-                                        <img src="html/hosoren/img/samples/products/index/clothing/4.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- /.product-thumbnail -->
-                               
-                            </div>
-                            <!-- /.product-media -->
-
-                            <div class="product-body">
-                                <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Вино-водочный набор</a>
-                        </h2>
-                                <!-- /.product-product -->
-
-                                
-
-                                <div class="product-price">
-
-                                    <span class="amount">500 грн</span>
-
-                                </div>
-                                <!-- /.product-price -->
-                            </div>
-                            <!-- /.product-body -->
-                        </div>
-                        <!-- /.product -->
-
-
-
-                        <div class="product product-grid">
-                            <div class="product-media">
-                                <div class="product-thumbnail">
-                                    <a href="product-fullwidth.html" title="">
-                                        <img src="html/hosoren/img/samples/products/index/arrivals/5.jpg" alt="" class="current">
-                                        <img src="html/hosoren/img/samples/products/index/clothing/5.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- /.product-thumbnail -->
-                              
-                            </div>
-                            <!-- /.product-media -->
-
-                            <div class="product-body">
-                                <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Для Мамы</a>
-                        </h2>
-                                <!-- /.product-product -->
-
-                                
-                                <div class="product-price">
-
-                                    <span class="amount">600 грн</span>
-
-                                </div>
-                                <!-- /.product-price -->
-                            </div>
-                            <!-- /.product-body -->
-                        </div>
-                        <!-- /.product -->
-                        <div class="product product-grid">
-                            <div class="product-media">
-                                <div class="product-thumbnail">
-                                    <a href="product-fullwidth.html" title="">
-                                        <img src="html/hosoren/img/samples/products/index/arrivals/6.jpg" alt="" class="current">
-                                        <img src="html/hosoren/img/samples/products/index/clothing/6.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- /.product-thumbnail -->
-                              
-                            </div>
-                            <!-- /.product-media -->
-
-                            <div class="product-body">
-                                <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Для Мамы</a>
-                        </h2>
-                                <!-- /.product-product -->
-
-                                
-                                <div class="product-price">
-
-                                    <span class="amount">600 грн</span>
-
-                                </div>
-                                <!-- /.product-price -->
-                            </div>
-                            <!-- /.product-body -->
-                        </div>
-                        <!-- /.product -->
-                         <div class="product product-grid">
-                            <div class="product-media">
-                                <div class="product-thumbnail">
-                                    <a href="product-fullwidth.html" title="">
-                                        <img src="html/hosoren/img/samples/products/index/arrivals/7.jpg" alt="" class="current">
-                                        <img src="html/hosoren/img/samples/products/index/clothing/7.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- /.product-thumbnail -->
-                              
-                            </div>
-                            <!-- /.product-media -->
-
-                            <div class="product-body">
-                                <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Для Мамы</a>
-                        </h2>
-                                <!-- /.product-product -->
-
-                                
-                                <div class="product-price">
-
-                                    <span class="amount">600 грн</span>
-
-                                </div>
-                                <!-- /.product-price -->
-                            </div>
-                            <!-- /.product-body -->
-                        </div>
-                        <!-- /.product -->
-                        <div class="product product-grid">
-                            <div class="product-media">
-                                <div class="product-thumbnail">
-                                    <a href="product-fullwidth.html" title="">
-                                        <img src="html/hosoren/img/samples/products/index/arrivals/8.jpg" alt="" class="current">
-                                        <img src="html/hosoren/img/samples/products/index/clothing/7.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- /.product-thumbnail -->
-                              
-                            </div>
-                            <!-- /.product-media -->
-
-                            <div class="product-body">
-                                <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Для Мамы</a>
-                        </h2>
-                                <!-- /.product-product -->
-
-                                
-                                <div class="product-price">
-
-                                    <span class="amount">600 грн</span>
-
-                                </div>
-                                <!-- /.product-price -->
-                            </div>
-                            <!-- /.product-body -->
-                        </div>
-                        <!-- /.product -->
+                            @endif
+                        @endforeach
                     </div>
-                    <!-- /.products -->
                 </div>
-                <!-- /.arrivals -->
-
             </div>
         </div>
         <!-- /.container -->
@@ -287,67 +46,26 @@
 
     <div class="container">
         <div class="arrivals">
-                    <div class="section-header center">
-                        <h2><a name="ourbox"> Наши Боксики</a></h2>
-                    </div>
-            <div class="row ourboxes">
-
-                <div class="col-sm-3" data-toggle="modal" data-target=".bd-example-modal-lg">
-                    <img src="html/hosoren/img/samples/products/index/arrivals/1.jpg" alt="" class="current">
-                    <div class="product-price">
-                        <span class="amount">600 грн</span>
-                    </div>
-                </div>
-                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
-                    <img src="html/hosoren/img/samples/products/index/arrivals/2.jpg" alt="" class="current">
-                    <div class="product-price">
-                        <span class="amount">600 грн</span>
-                    </div>
-                </div>
-                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
-                    <img src="html/hosoren/img/samples/products/index/arrivals/3.jpg" alt="" class="current">
-                    <div class="product-price">
-                        <span class="amount">600 грн</span>
-                    </div>
-                </div>
-                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
-                    <img src="html/hosoren/img/samples/products/index/arrivals/4.jpg" alt="" class="current">
-                    <div class="product-price">
-                        <span class="amount">600 грн</span>
-                    </div>
-                </div>               
+            <div class="section-header center">
+                <h2><a name="ourbox"> Наши Боксики</a></h2>
             </div>
-             <div class="row ourboxes">
-   
-                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
-                    <img src="html/hosoren/img/samples/products/index/arrivals/5.jpg" alt="" class="current">
-                    <div class="product-price">
-                        <span class="amount">600 грн</span>
-                    </div>
-                </div>
-                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
-                    <img src="html/hosoren/img/samples/products/index/arrivals/6.jpg" alt="" class="current">
-                    <div class="product-price">
-                        <span class="amount">600 грн</span>
-                    </div>
-                </div>
-                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
-                    <img src="html/hosoren/img/samples/products/index/arrivals/7.jpg" alt="" class="current">
-                    <div class="product-price">
-                        <span class="amount">600 грн</span>
-                    </div>
-                </div>
-                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
-                    <img src="html/hosoren/img/samples/products/index/arrivals/8.jpg" alt="" class="current">
-                    <div class="product-price">
-                        <span class="amount">600 грн</span>
-                    </div>
-                </div>
+            <div class="row ourboxes">
+                @foreach (config('boxes') as $id => $box)
+                    @if (!empty($box['active']))
+                        <div class="col-sm-3 show_box" data-id="{{$id}}">
+                            <img src="{{$box['images'][0]}}" alt="" class="current">
+                            <h2 class="product-name">
+                                <a href="#" title="{{$box['name']}}">{{$box['name']}}</a>
+                            </h2>
+                            <div class="product-price">
+                                <span class="amount">{{$box['price']}} грн</span>
+                            </div>
+                        </div>
+                    @endif
+                @endforeach
             </div>
         </div>
     </div>
-
-    
 
     <section class="background background-color-dark background-image-section-customers-say">
         <div class="container">

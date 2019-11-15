@@ -35,46 +35,24 @@
 @include('layout.header')
 
 <!-- // LOADING -->
-    <div class="awe-page-loading">
-        <div class="awe-loading-wrapper">
-            <div class="awe-loading-icon">
-                <span class="icon icon-logo"></span>
-            </div>
+<div class="awe-page-loading">
+    <div class="awe-loading-wrapper">
+        <div class="awe-loading-icon">
+            <span class="icon icon-logo"></span>
+        </div>
 
-            <div class="progress">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
     </div>
-    <!-- // END LOADING -->
+</div>
+<!-- // END LOADING -->
 
 
-    <div id="wrapper">
-        @section("content")
+<div id="wrapper">
+    @section("content")
 
-        @show
-    </div>
-    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-    
-      <div class="modal-body">
-        <img src="html/hosoren/img/samples/products/index/featured/1.jpg" alt="" class="current">
-        <div class="product-price">
-            <span class="amount">Что внутри:</span>
-            <ul style="font-size: 15px" >
-                <li>Какая то штучка</li>
-                <li>Еще какая то штучка</li>
-                <li>Прекрасная штуковина</li>
-            </ul>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
-        <button type="button" class="btn btn-primary">Купить</button>
-      </div>
-    </div>
-  </div>
+    @show
 </div>
 
 @include('layout.footer')
@@ -108,6 +86,8 @@
     <script src="js/main.js"></script>
 
     <script src="js/docs.js"></script>
+
+     <script src="js/script.js"></script>
 
     @yield('javascript')
 @show
