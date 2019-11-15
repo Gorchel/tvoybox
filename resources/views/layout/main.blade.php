@@ -13,14 +13,19 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,700,400italic,700italic&amp;subset=latin,vietnamese">
 
     @section('css')
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Markera&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,700,400italic,700italic&amp;subset=latin,vietnamese">
-
+        <link rel="stylesheet" href="css/customstyle.css">
         <link rel="stylesheet" href="css/bootstrap.css">
 
         <link rel="stylesheet" href="css/plugins.css">
 
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/custom.css">
+
 
         @yield('css')
     @show
@@ -49,7 +54,28 @@
 
         @show
     </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
     
+      <div class="modal-body">
+        <img src="html/hosoren/img/samples/products/index/featured/1.jpg" alt="" class="current">
+        <div class="product-price">
+            <span class="amount">Что внутри:</span>
+            <ul style="font-size: 15px" >
+                <li>Какая то штучка</li>
+                <li>Еще какая то штучка</li>
+                <li>Прекрасная штуковина</li>
+            </ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+        <button type="button" class="btn btn-primary">Купить</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 @include('layout.footer')
 

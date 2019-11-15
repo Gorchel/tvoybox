@@ -10,10 +10,11 @@
                                     <div class="col-md-12 col-sm-6">
 
                                         <div class="widget">
-                                            <h3 class="widget-title">ABOUT HOSOREN</h3>
+                                            <img src="html/hosoren/img/logo2.png" alt="" class="footerlogo">
+                                            <h3 class="widget-title"><a name="footer"> ТВОЙ БОКС</a></h3>
 
                                             <div class="widget-content">
-                                                <p>Lorem ipsum dolor sit amet isse potenti. Vesquam ante aliquet lacusemper elit. Cras neque nulla, convallis non commodo et, euismod nonsese.</p>
+                                                <p>Украина, Одесса,ул. Китобойная 41</p>
                                             </div>
                                         </div>
 
@@ -25,9 +26,9 @@
                                             <h3 class="widget-title">WE CAN HELP YOU?</h3>
 
                                             <div class="widget-content">
-                                                <p>Phone 1: 8 (495) 989—20—11</p>
-                                                <p>Phone 2: 8 (800) 875—05—26</p>
-                                                <p>Open - Close: 09:00-21:00</p>
+                                                <p>Телефон: +38(093) 240—54—14</p>
+                                                
+                                                <p>График работы: Ежедневно:с 08-23</p>
                                                 <p>Mail: hosoren@gmail.com</p>
                                             </div>
                                         </div>
@@ -84,10 +85,10 @@
                             <div class="col-md-4">
 
                                 <div class="widget">
-                                    <h3 class="widget-title">Are You Like Me</h3>
+                                    <h3 class="widget-title">Наш инстаграм и почта</h3>
 
                                     <ul class="list-socials">
-                                        <li><a href="#" title=""><i class="icon icon-twitter"></i></a>
+                                        <li><a href="https://instagram.com/box_tvoy?igshid=vziwdma817qb" title=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
                                         </li>
                                         <li><a href="#" title=""><i class="icon icon-facebook"></i></a>
                                         </li>

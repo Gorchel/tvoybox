@@ -1,1094 +1,16 @@
 @extends('layout.main')
 
 @section("content")
-	<div id="main">
-        <section>
-            <div class="main-slider-wrapper">
-            <div class="main-slider owl-carousel owl-carousel-inset">
 
-                <div class="main-slider-item">
-                    <div class="main-slider-image">
-                        <img src="html/hosoren/img/samples/sliders/1.jpg" alt="">
-                    </div>
 
-                    <div class="main-slider-text">
-                        <div class="fp-table">
-                            <div class="fp-table-cell center">
-                                <div class="container">
-                                    <h3>The Shoes For Summer</h3>
-                                    <h2>Shoes Vans<br>$160.00</h2>
-
-                                    <div class="button">
-                                        <a href="#" class="btn btn-lg btn-primary margin-right-15">Shop now</a>
-                                        <a href="#" class="btn btn-lg btn-white btn-outline">Browse category</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="main-slider-item">
-                    <div class="main-slider-image">
-                        <img src="html/hosoren/img/samples/sliders/2.jpg" alt="">
-                    </div>
-
-                    <div class="main-slider-text">
-                        <div class="fp-table">
-                            <div class="fp-table-cell center">
-                                <div class="container">
-                                    <h3 class="small">New Fashion For Winter</h3>
-                                    <h2 class="small">New Jacket <br> only $60</h2>
-
-                                    <div class="button">
-                                        <a href="#" class="btn btn-lg btn-primary margin-right-15">Shop now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="main-slider-item">
-                    <div class="main-slider-image">
-                        <img src="html/hosoren/img/samples/sliders/3.jpg" alt="">
-                    </div>
-
-                    <div class="main-slider-text">
-                        <div class="fp-table">
-                            <div class="fp-table-cell center">
-                                <div class="container">
-                                    <h3 class="light">New T-shirt</h3>
-                                    <h2 class="small margin-bottom-25">Vintage Raglan</h2>
-
-                                    <div class="dots-color center margin-bottom-35">
-                                        <span class="orange"></span>
-                                        <span class="blue"></span>
-                                        <span class="green"></span>
-                                        <span class="red"></span>
-                                        <span class="black"></span>
-                                    </div>
-
-                                    <div class="button">
-                                        <a href="#" class="btn btn-lg btn-primary">Shop now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="main-slider-item">
-                    <div class="main-slider-image">
-                        <img src="html/hosoren/img/samples/sliders/4.jpg" alt="">
-                    </div>
-
-                    <div class="main-slider-text">
-
-                        <div class="fp-table">
-                            <div class="fp-table-cell center">
-                                <div class="container">
-                                    <h3 class="small">What's Trending</h3>
-                                    <h2 class="small">Look Book<br>fashion 2015</h2>
-
-                                    <div class="button">
-                                        <a href="#" class="btn btn-lg btn-primary margin-right-15">View now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <script>
-            $(function() {  aweMainSlider(); });
-        </script>
-
-    </section>
-    <!-- /section -->
-
-    <section class="border-bottom">
-        <div class="container">
-            <div class="policy-wrapper">
-
-                <div class="row">
-
-                    <div class="col-md-4 col-sm-4 col-xs-8">
-                        <div class="policy">
-                            <div class="policy-icon">
-                                <i class="icon icon-dolar-circle"></i>
-                            </div>
-
-                            <div class="policy-text">
-                                <h4>100% Money back</h4>
-                                <p>Guarantee</p>
-                            </div>
-                        </div>
-                        <!-- /.policy -->
-                    </div>
-
-                    <div class="col-md-4 col-sm-4 col-xs-8">
-                        <div class="policy">
-                            <div class="policy-icon">
-                                <i class="icon icon-car"></i>
-                            </div>
-
-                            <div class="policy-text">
-                                <h4>Free shipping</h4>
-                                <p>On order over 500$</p>
-                            </div>
-                        </div>
-                        <!-- /.policy -->
-                    </div>
-
-                    <div class="col-md-4 col-sm-4 col-xs-8">
-                        <div class="policy">
-                            <div class="policy-icon">
-                                <i class="icon icon-telephone"></i>
-                            </div>
-
-                            <div class="policy-text">
-                                <h4>24-hour</h4>
-                                <p>active support</p>
-                            </div>
-                        </div>
-                        <!-- /.policy -->
-                    </div>
-                </div>
-                <!-- /.row -->
-
-            </div>
-            <!-- /.policy-wrapper -->
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- /section -->
-
-    <section>
-        <div class="container">
-
-            <div class="home-products padding-vertical-60">
-                <div class="row">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="awe-media home-cate-media">
-                            <div class="awe-media-header">
-                                <div class="awe-media-image">
-                                    <img src="html/hosoren/img/samples/collections/index-1/clothing.jpg" alt="">
-                                </div>
-                                <!-- /.awe-media-image -->
-
-                                <div class="awe-media-overlay overlay-dark-50 fullpage">
-                                    <div class="content">
-
-                                        <div class="fp-table text-left">
-                                            <div class="fp-table-cell">
-
-                                                <h2 class="upper">Clothing</h2>
-                                                <p class="margin-bottom-50">At vero eos et accusamus et iusto odio dignissimosmus voluptatum deleniti</p>
-                                                <a href="#" class="btn btn-sm btn-outline btn-white">View All</a>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- /.awe-media-overlay -->
-
-                            </div>
-                            <!-- /.awe-media-header -->
-                        </div>
-                        <!-- /.awe-media -->
-                    </div>
-
-                    <div class="col-md-9 col-sm-8">
-                        <div class="products owl-carousel" data-items="3">
-
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/1.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Short</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$30</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Goodale Rutledge Navy/White">Goodale Rutledge Navy/White</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Shirt</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$120</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/3.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Shirt</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$60</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/4.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Shirt</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$50</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-
-                        </div>
-                        <!-- ./products -->
-                    </div>
-                </div>
-                <!-- /.row -->
-
-                <div class="row">
-                    <div class="col-md-3 col-sm-4 col-md-push-9 col-sm-push-8">
-                        <div class="awe-media home-cate-media">
-                            <div class="awe-media-header">
-                                <div class="awe-media-image">
-                                    <img src="html/hosoren/img/samples/collections/index-1/shoes.jpg" alt="">
-                                </div>
-                                <!-- /.awe-media-image -->
-
-                                <div class="awe-media-overlay overlay-dark-50 fullpage">
-                                    <div class="content">
-
-                                        <div class="fp-table text-left">
-                                            <div class="fp-table-cell">
-
-                                                <h2 class="upper">Shoes</h2>
-                                                <p class="margin-bottom-50">At vero eos et accusamus et iusto odio dignissimosmus voluptatum deleniti corrupti quos dolores</p>
-                                                <a href="#" class="btn btn-sm btn-outline btn-white">View All</a>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- /.awe-media-overlay -->
-                            </div>
-                            <!-- /.awe-media-header -->
-                        </div>
-                        <!-- /.awe-media -->
-                    </div>
-
-                    <div class="col-md-9 col-sm-8 col-md-pull-3 col-sm-pull-4">
-                        <div class="products owl-carousel" data-items="3">
-
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/shoes/1.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Short</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$80</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/shoes/2.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Goodale Rutledge Navy/White">Goodale Rutledge Navy/White</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Shirt</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$50</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/shoes/3.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Shirt</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$60</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/shoes/4.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Shirt</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$50</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-
-                        </div>
-                        <!-- ./products -->
-                    </div>
-                </div>
-                <!-- /.row -->
-
-                <div class="row">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="awe-media home-cate-media">
-                            <div class="awe-media-header">
-                                <div class="awe-media-image">
-                                    <img src="html/hosoren/img/samples/collections/index-1/accessories.jpg" alt="">
-                                </div>
-                                <!-- /.awe-media-image -->
-
-                                <div class="awe-media-overlay overlay-dark-50 fullpage">
-                                    <div class="content">
-
-                                        <div class="fp-table text-left">
-                                            <div class="fp-table-cell">
-
-                                                <h2 class="upper">Accessories</h2>
-                                                <p class="margin-bottom-50">At vero eos et accusamus et iusto odiovoluptatum deleniti corrupti quos dolores</p>
-                                                <a href="#" class="btn btn-sm btn-outline btn-white">View All</a>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- /.awe-media-overlay -->
-                            </div>
-                            <!-- /.awe-media-header -->
-                        </div>
-                        <!-- /.awe-media -->
-                    </div>
-
-                    <div class="col-md-9 col-sm-8">
-                        <div class="products owl-carousel" data-items="3">
-
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/accessories/1.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Short</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$80</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/accessories/2.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Goodale Rutledge Navy/White">Goodale Rutledge Navy/White</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Shirt</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$50</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/accessories/3.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Shirt</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$60</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/accessories/4.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Shirt</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$50</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-
-                        </div>
-                        <!-- ./products -->
-                    </div>
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.home-products -->
-
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- /section -->
-
-    <div class="container">
-        <div class="divider"></div>
-    </div>
-
-    <section>
-        <div class="container">
-
-            <div class="home-trending padding-vertical-50">
-                <div class="section-header center">
-                    <h2 class="upper margin-bottom-20">What's Trending</h2>
-                    <p>All trend style for man</p>
-                </div>
-                <!-- ./section-header -->
-
-                <div class="row">
-
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="awe-media">
-                            <div class="awe-media-image">
-                                <a href="#" title="New Collection For Man">
-                                    <img src="html/hosoren/img/samples/collections/trending/1.jpg" alt="">
-                                </a>
-                            </div>
-                            <!-- /.awe-media-image -->
-
-                            <div class="awe-media-body center margin-vertical-20">
-                                <a href="#" title="New Collection For Man">New Collection For Man</a>
-                            </div>
-                            <!-- /.awe-media-body -->
-                        </div>
-                        <!-- /.awe-media -->
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="awe-media">
-                            <div class="awe-media-image">
-                                <a href="#" title="New Trending Shop">
-                                    <img src="html/hosoren/img/samples/collections/trending/2.jpg" alt="">
-                                </a>
-                            </div>
-                            <!-- /.awe-media-image -->
-
-                            <div class="awe-media-body center margin-vertical-20">
-                                <a href="#" title="New Trending Shop">New Trending Shop</a>
-                            </div>
-                            <!-- /.awe-media-body -->
-                        </div>
-                        <!-- /.awe-media -->
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="awe-media">
-                            <div class="awe-media-image">
-                                <a href="#" title="New Fashion for Cafe Racer Boy">
-                                    <img src="html/hosoren/img/samples/collections/trending/3.jpg" alt="">
-                                </a>
-                            </div>
-                            <!-- /.awe-media-image -->
-
-                            <div class="awe-media-body center margin-vertical-20">
-                                <a href="#" title="New Fashion for Cafe Racer Boy">New Fashion for Cafe Racer Boy</a>
-                            </div>
-                            <!-- /.awe-media-body -->
-                        </div>
-                        <!-- /.awe-media -->
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="awe-media">
-                            <div class="awe-media-image">
-                                <a href="#" title="New Watch Style">
-                                    <img src="html/hosoren/img/samples/collections/trending/4.jpg" alt="">
-                                </a>
-                            </div>
-                            <!-- /.awe-media-image -->
-
-                            <div class="awe-media-body center margin-vertical-20">
-                                <a href="#" title="New Watch Style">New Watch Style</a>
-                            </div>
-                            <!-- /.awe-media-body -->
-                        </div>
-                        <!-- /.awe-media -->
-                    </div>
-
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.home-trending -->
-
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- /section -->
-
-    <div class="container">
-        <div class="divider"></div>
-    </div>
-
+   
     <section>
         <div class="container">
             <div class="padding-vertical-50">
 
                 <div class="arrivals">
                     <div class="section-header center">
-                        <h2>New Arrivals</h2>
+                        <h2><a name="wereccomended"> Мы рекомендуем</a></h2>
                     </div>
                     <!-- /.section-header -->
 
@@ -1100,49 +22,23 @@
                                 <div class="product-thumbnail">
                                     <a href="product-fullwidth.html" title="">
                                         <img src="html/hosoren/img/samples/products/index/arrivals/1.jpg" alt="" class="current">
-                                        <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
+                                        <img src="html/hosoren/img/samples/products/index/clothing/1.jpg" alt="">
                                     </a>
                                 </div>
                                 <!-- /.product-thumbnail -->
-
-
-                                <div class="product-hover">
-                                    <div class="product-actions">
-                                        <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                            <i class="icon icon-shopping-bag"></i>
-                                        </a>
-
-                                        <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                            <i class="icon icon-star"></i>
-                                        </a>
-
-                                        <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                            <i class="icon icon-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- /.product-hover -->
-
-
 
                             </div>
                             <!-- /.product-media -->
 
                             <div class="product-body">
                                 <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
+                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Бокс для Неё</a>
                         </h2>
                                 <!-- /.product-product -->
 
-                                <div class="product-category">
-                                    <span>Short</span>
-                                </div>
-                                <!-- /.product-category -->
-
+                                
                                 <div class="product-price">
-
-                                    <span class="amount">$80</span>
-
+                                    <span class="amount">450 грн</span>
                                 </div>
                                 <!-- /.product-price -->
                             </div>
@@ -1163,42 +59,21 @@
                                 <!-- /.product-thumbnail -->
 
 
-                                <div class="product-hover">
-                                    <div class="product-actions">
-                                        <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                            <i class="icon icon-shopping-bag"></i>
-                                        </a>
-
-                                        <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                            <i class="icon icon-star"></i>
-                                        </a>
-
-                                        <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                            <i class="icon icon-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- /.product-hover -->
-
-
-
+                                
                             </div>
                             <!-- /.product-media -->
 
                             <div class="product-body">
                                 <h2 class="product-name">
-                            <a href="#" title="Goodale Rutledge Navy/White">Goodale Rutledge Navy/White</a>
+                            <a href="#" title="Goodale Rutledge Navy/White">Для Него</a>
                         </h2>
                                 <!-- /.product-product -->
 
-                                <div class="product-category">
-                                    <span>Shirt</span>
-                                </div>
-                                <!-- /.product-category -->
+                                
 
                                 <div class="product-price">
 
-                                    <span class="amount">$50</span>
+                                    <span class="amount">500 грн</span>
 
                                 </div>
                                 <!-- /.product-price -->
@@ -1214,48 +89,27 @@
                                 <div class="product-thumbnail">
                                     <a href="product-fullwidth.html" title="">
                                         <img src="html/hosoren/img/samples/products/index/arrivals/3.jpg" alt="" class="current">
-                                        <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
+                                        <img src="html/hosoren/img/samples/products/index/clothing/3.jpg" alt="">
                                     </a>
                                 </div>
                                 <!-- /.product-thumbnail -->
 
 
-                                <div class="product-hover">
-                                    <div class="product-actions">
-                                        <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                            <i class="icon icon-shopping-bag"></i>
-                                        </a>
-
-                                        <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                            <i class="icon icon-star"></i>
-                                        </a>
-
-                                        <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                            <i class="icon icon-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- /.product-hover -->
-
-
+                                
 
                             </div>
                             <!-- /.product-media -->
 
                             <div class="product-body">
                                 <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
+                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Универсальный</a>
                         </h2>
                                 <!-- /.product-product -->
 
-                                <div class="product-category">
-                                    <span>Shirt</span>
-                                </div>
-                                <!-- /.product-category -->
-
+                                
                                 <div class="product-price">
 
-                                    <span class="amount">$60</span>
+                                    <span class="amount">500 грн</span>
 
                                 </div>
                                 <!-- /.product-price -->
@@ -1271,48 +125,25 @@
                                 <div class="product-thumbnail">
                                     <a href="product-fullwidth.html" title="">
                                         <img src="html/hosoren/img/samples/products/index/arrivals/4.jpg" alt="" class="current">
-                                        <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
+                                        <img src="html/hosoren/img/samples/products/index/clothing/4.jpg" alt="">
                                     </a>
                                 </div>
                                 <!-- /.product-thumbnail -->
-
-
-                                <div class="product-hover">
-                                    <div class="product-actions">
-                                        <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                            <i class="icon icon-shopping-bag"></i>
-                                        </a>
-
-                                        <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                            <i class="icon icon-star"></i>
-                                        </a>
-
-                                        <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                            <i class="icon icon-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- /.product-hover -->
-
-
-
+                               
                             </div>
                             <!-- /.product-media -->
 
                             <div class="product-body">
                                 <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
+                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Вино-водочный набор</a>
                         </h2>
                                 <!-- /.product-product -->
 
-                                <div class="product-category">
-                                    <span>Shirt</span>
-                                </div>
-                                <!-- /.product-category -->
+                                
 
                                 <div class="product-price">
 
-                                    <span class="amount">$50</span>
+                                    <span class="amount">500 грн</span>
 
                                 </div>
                                 <!-- /.product-price -->
@@ -1328,48 +159,24 @@
                                 <div class="product-thumbnail">
                                     <a href="product-fullwidth.html" title="">
                                         <img src="html/hosoren/img/samples/products/index/arrivals/5.jpg" alt="" class="current">
-                                        <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
+                                        <img src="html/hosoren/img/samples/products/index/clothing/5.jpg" alt="">
                                     </a>
                                 </div>
                                 <!-- /.product-thumbnail -->
-
-
-                                <div class="product-hover">
-                                    <div class="product-actions">
-                                        <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                            <i class="icon icon-shopping-bag"></i>
-                                        </a>
-
-                                        <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                            <i class="icon icon-star"></i>
-                                        </a>
-
-                                        <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                            <i class="icon icon-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- /.product-hover -->
-
-
-
+                              
                             </div>
                             <!-- /.product-media -->
 
                             <div class="product-body">
                                 <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
+                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Для Мамы</a>
                         </h2>
                                 <!-- /.product-product -->
 
-                                <div class="product-category">
-                                    <span>Shirt</span>
-                                </div>
-                                <!-- /.product-category -->
-
+                                
                                 <div class="product-price">
 
-                                    <span class="amount">$50</span>
+                                    <span class="amount">600 грн</span>
 
                                 </div>
                                 <!-- /.product-price -->
@@ -1377,8 +184,96 @@
                             <!-- /.product-body -->
                         </div>
                         <!-- /.product -->
+                        <div class="product product-grid">
+                            <div class="product-media">
+                                <div class="product-thumbnail">
+                                    <a href="product-fullwidth.html" title="">
+                                        <img src="html/hosoren/img/samples/products/index/arrivals/6.jpg" alt="" class="current">
+                                        <img src="html/hosoren/img/samples/products/index/clothing/6.jpg" alt="">
+                                    </a>
+                                </div>
+                                <!-- /.product-thumbnail -->
+                              
+                            </div>
+                            <!-- /.product-media -->
 
+                            <div class="product-body">
+                                <h2 class="product-name">
+                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Для Мамы</a>
+                        </h2>
+                                <!-- /.product-product -->
 
+                                
+                                <div class="product-price">
+
+                                    <span class="amount">600 грн</span>
+
+                                </div>
+                                <!-- /.product-price -->
+                            </div>
+                            <!-- /.product-body -->
+                        </div>
+                        <!-- /.product -->
+                         <div class="product product-grid">
+                            <div class="product-media">
+                                <div class="product-thumbnail">
+                                    <a href="product-fullwidth.html" title="">
+                                        <img src="html/hosoren/img/samples/products/index/arrivals/7.jpg" alt="" class="current">
+                                        <img src="html/hosoren/img/samples/products/index/clothing/7.jpg" alt="">
+                                    </a>
+                                </div>
+                                <!-- /.product-thumbnail -->
+                              
+                            </div>
+                            <!-- /.product-media -->
+
+                            <div class="product-body">
+                                <h2 class="product-name">
+                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Для Мамы</a>
+                        </h2>
+                                <!-- /.product-product -->
+
+                                
+                                <div class="product-price">
+
+                                    <span class="amount">600 грн</span>
+
+                                </div>
+                                <!-- /.product-price -->
+                            </div>
+                            <!-- /.product-body -->
+                        </div>
+                        <!-- /.product -->
+                        <div class="product product-grid">
+                            <div class="product-media">
+                                <div class="product-thumbnail">
+                                    <a href="product-fullwidth.html" title="">
+                                        <img src="html/hosoren/img/samples/products/index/arrivals/8.jpg" alt="" class="current">
+                                        <img src="html/hosoren/img/samples/products/index/clothing/7.jpg" alt="">
+                                    </a>
+                                </div>
+                                <!-- /.product-thumbnail -->
+                              
+                            </div>
+                            <!-- /.product-media -->
+
+                            <div class="product-body">
+                                <h2 class="product-name">
+                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Для Мамы</a>
+                        </h2>
+                                <!-- /.product-product -->
+
+                                
+                                <div class="product-price">
+
+                                    <span class="amount">600 грн</span>
+
+                                </div>
+                                <!-- /.product-price -->
+                            </div>
+                            <!-- /.product-body -->
+                        </div>
+                        <!-- /.product -->
                     </div>
                     <!-- /.products -->
                 </div>
@@ -1391,286 +286,74 @@
     <!-- /section -->
 
     <div class="container">
-        <div class="divider"></div>
+        <div class="arrivals">
+                    <div class="section-header center">
+                        <h2><a name="ourbox"> Наши Боксики</a></h2>
+                    </div>
+            <div class="row ourboxes">
+
+                <div class="col-sm-3" data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <img src="html/hosoren/img/samples/products/index/arrivals/1.jpg" alt="" class="current">
+                    <div class="product-price">
+                        <span class="amount">600 грн</span>
+                    </div>
+                </div>
+                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <img src="html/hosoren/img/samples/products/index/arrivals/2.jpg" alt="" class="current">
+                    <div class="product-price">
+                        <span class="amount">600 грн</span>
+                    </div>
+                </div>
+                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <img src="html/hosoren/img/samples/products/index/arrivals/3.jpg" alt="" class="current">
+                    <div class="product-price">
+                        <span class="amount">600 грн</span>
+                    </div>
+                </div>
+                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <img src="html/hosoren/img/samples/products/index/arrivals/4.jpg" alt="" class="current">
+                    <div class="product-price">
+                        <span class="amount">600 грн</span>
+                    </div>
+                </div>               
+            </div>
+             <div class="row ourboxes">
+   
+                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <img src="html/hosoren/img/samples/products/index/arrivals/5.jpg" alt="" class="current">
+                    <div class="product-price">
+                        <span class="amount">600 грн</span>
+                    </div>
+                </div>
+                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <img src="html/hosoren/img/samples/products/index/arrivals/6.jpg" alt="" class="current">
+                    <div class="product-price">
+                        <span class="amount">600 грн</span>
+                    </div>
+                </div>
+                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <img src="html/hosoren/img/samples/products/index/arrivals/7.jpg" alt="" class="current">
+                    <div class="product-price">
+                        <span class="amount">600 грн</span>
+                    </div>
+                </div>
+                <div class="col-sm-3"data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <img src="html/hosoren/img/samples/products/index/arrivals/8.jpg" alt="" class="current">
+                    <div class="product-price">
+                        <span class="amount">600 грн</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <section>
-        <div class="container">
-
-            <div class="padding-vertical-50 border-bottom">
-                <div class="section-header center">
-                    <h2>Featured Items</h2>
-                </div>
-                <!-- /.section-header -->
-
-                <div class="products scroll">
-                    <div class="row">
-
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/featured/1.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                    <span class="product-label hot">
-                            <span>hot</span>
-                                    </span>
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Jackets</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$260</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/featured/2.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                    <span class="product-label new">
-                            <span>new</span>
-                                    </span>
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Goodale Rutledge Navy/White">Goodale Rutledge Navy/White</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Shorts</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$150</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/featured/3.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-soldout">
-                                        <div class="fp-table">
-                                            <div class="fp-table-cell">
-                                                <span class="soldout">Sold Out</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Gin Lane Greenport Cotton Shirt">Gin Lane Greenport Cotton Shirt</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Shirt</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$60</span>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-
-                            <div class="product product-grid">
-                                <div class="product-media">
-                                    <div class="product-thumbnail">
-                                        <a href="product-fullwidth.html" title="">
-                                            <img src="html/hosoren/img/samples/products/index/featured/4.jpg" alt="" class="current">
-                                            <img src="html/hosoren/img/samples/products/index/clothing/2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- /.product-thumbnail -->
-
-
-                                    <div class="product-hover">
-                                        <div class="product-actions">
-                                            <a href="#" class="awe-button product-add-cart" data-toggle="tooltip" title="Add to cart">
-                                                <i class="icon icon-shopping-bag"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-whistlist" data-toggle="tooltip" title="Add to whistlist">
-                                                <i class="icon icon-star"></i>
-                                            </a>
-
-                                            <a href="#" class="awe-button product-quick-view" data-toggle="tooltip" title="Quickview">
-                                                <i class="icon icon-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-hover -->
-
-
-
-                                    <span class="product-label sale">
-                            <span>sale</span>
-                                    </span>
-
-                                </div>
-                                <!-- /.product-media -->
-
-                                <div class="product-body">
-                                    <h2 class="product-name">
-                            <a href="#" title="Goodale Rutledge Navy/White">Goodale Rutledge Navy/White</a>
-                        </h2>
-                                    <!-- /.product-product -->
-
-                                    <div class="product-category">
-                                        <span>Vests</span>
-                                    </div>
-                                    <!-- /.product-category -->
-
-                                    <div class="product-price">
-
-                                        <span class="amount">$630</span>
-                                        <del class="amount">$230</del>
-
-                                    </div>
-                                    <!-- /.product-price -->
-                                </div>
-                                <!-- /.product-body -->
-                            </div>
-                            <!-- /.product -->
-
-                        </div>
-
-                    </div>
-                    <!-- /.row -->
-                </div>
-                <!-- /.products -->
-
-                <div class="center">
-                    <a href="#" class="btn btn-lg btn-dark btn-outline">
-                        <span>View More Products</span>
-                    </a>
-                </div>
-                <!-- /.margin-top-50 -->
-            </div>
-            <!-- /.padding-vertical-50 -->
-
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- /section -->
+    
 
     <section class="background background-color-dark background-image-section-customers-say">
         <div class="container">
             <div class="padding-top-60">
                 <div class="section-header center">
-                    <h2>Customer Say</h2>
+                    <h2>Заказывая у нас Вы получаете</h2>
                 </div>
                 <!-- /.section-header -->
 
@@ -1679,16 +362,14 @@
                         <div class="col-md-8 col-md-offset-2">
                             <div class="customers-carousel owl-carousel" id="customers-carousel" data-toggle="carousel" data-dots="true" data-nav="0">
                                 <div class="center">
-                                    <h4>Natasha Roson</h4>
-                                    <p>“There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If
-                                        you are going to use a passage of Lorem Ipsum“</p>
+                                    <h4>Оригинальность подарка</h4>
+                                    <p>Каждый подарок собран с любовью и каждый оригинален по своему, можно найти абсолютно для любого человека</p>
                                 </div>
                                 <!-- /.center -->
 
                                 <div class="center">
-                                    <h4>Natasha Roson</h4>
-                                    <p>“There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If
-                                        you are going to use a passage of Lorem Ipsum“</p>
+                                    <h4>Экономия Вашего времени</h4>
+                                    <p>Ведь поиски действительно хорошего подарка занимают очень много времени. Мы экономим Ваше время и нервы</p>
                                 </div>
                                 <!-- /.center -->
 
@@ -1707,68 +388,113 @@
             </div>
         </div>
         <!-- /.container -->
-
-        <div class="section-brands">
-            <div class="container">
-                <div class="brands-carousel owl-carousel" id="brands-carousel">
-
-
-                    <div class="center">
-                        <img src="html/hosoren/img/samples/brands/brand-1.png" alt="">
-                    </div>
-                    <!-- /.center -->
-
-                    <div class="center">
-                        <img src="html/hosoren/img/samples/brands/brand-2.png" alt="">
-                    </div>
-                    <!-- /.center -->
-
-                    <div class="center">
-                        <img src="html/hosoren/img/samples/brands/brand-3.png" alt="">
-                    </div>
-                    <!-- /.center -->
-
-                    <div class="center">
-                        <img src="html/hosoren/img/samples/brands/brand-4.png" alt="">
-                    </div>
-                    <!-- /.center -->
-
-
-
-                    <div class="center">
-                        <img src="html/hosoren/img/samples/brands/brand-1.png" alt="">
-                    </div>
-                    <!-- /.center -->
-
-                    <div class="center">
-                        <img src="html/hosoren/img/samples/brands/brand-2.png" alt="">
-                    </div>
-                    <!-- /.center -->
-
-                    <div class="center">
-                        <img src="html/hosoren/img/samples/brands/brand-3.png" alt="">
-                    </div>
-                    <!-- /.center -->
-
-                    <div class="center">
-                        <img src="html/hosoren/img/samples/brands/brand-4.png" alt="">
-                    </div>
-                    <!-- /.center -->
-
-
-                </div>
-                <!-- /.brands-carousel -->
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /.section-brands -->
-
+        
     </section>
     <!-- /section -->
 
     <section>
+
         <div class="container">
+
             <div class="padding-vertical-60">
+             <!--Accordion wrapper-->
+<div class="accordion md-accordion " id="accordionEx1" role="tablist" aria-multiselectable="true">
+
+  <!-- Accordion card -->
+  <div class="card">
+
+    <!-- Card header -->
+    <div class="card-header " role="tab" id="headingTwo1">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseTwo1"
+        aria-expanded="false" aria-controls="collapseTwo1">
+        <h5 class="mb-0 menulist">
+          Доставка   <i class="fa fa-plus plusicon" aria-hidden="true"></i>
+        </h5>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1"
+      data-parent="#accordionEx1">
+      <div class="card-body textabout"><p>
+        Доставка производится по всей Украине<br>
+-Доставка по Одессе - бесплатно<br>
+-Доставка по Украине осуществляется Новой Почтой в течении 2 суток<br>
+-Самовывоз возможен<br> 
+</p>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
+
+  <!-- Accordion card -->
+  <div class="card">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingTwo2">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseTwo21"
+        aria-expanded="false" aria-controls="collapseTwo21">
+        <h5 class="mb-0 menulist">
+          Оплата <i class="fa fa-plus plusicon" aria-hidden="true"></i>
+        </h5>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseTwo21" class="collapse" role="tabpanel" aria-labelledby="headingTwo21"
+      data-parent="#accordionEx1">
+      <div class="card-body textabout"><p>
+       Оплата производится двумя способами:<br>
+       -Банковской картой<br>
+       -Наличными<br></p>  
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
+
+  <!-- Accordion card -->
+  <div class="card">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingThree31">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseThree31"
+        aria-expanded="false" aria-controls="collapseThree31">
+        <h5 class="mb-0 menulist">
+          Обмен и возврат <i class="fa fa-plus plusicon" aria-hidden="true"></i>
+        </h5>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseThree31" class="collapse" role="tabpanel" aria-labelledby="headingThree31"
+      data-parent="#accordionEx1">
+      <div class="card-body textabout"><p>
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+        wolf
+        moon
+        officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+        Brunch
+        3
+        wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+        shoreditch
+        et.
+        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        Ad
+        vegan
+        excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+        nesciunt
+        you probably haven't heard of them accusamus labore sustainable VHS.</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
+
+</div>
+<!-- Accordion wrapper -->
                 <div class="section-header">
                     <h2>News</h2>
                 </div>
@@ -1941,6 +667,7 @@
 
         </div>
         <!-- /.container -->
+
     </section>
     <!-- /section -->
 
