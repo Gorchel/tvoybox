@@ -8,7 +8,7 @@
     <meta name="author" content="Pixelparty">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <title>Tvoybox</title>
-
+    
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,700,400italic,700italic&amp;subset=latin,vietnamese">
 
@@ -81,6 +81,7 @@
 
 
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 
     <script src="js/plugins.js"></script>
@@ -90,6 +91,7 @@
     <script src="js/docs.js"></script>
 
      <script src="js/script.js"></script>
+
 
     @yield('javascript')
 @show

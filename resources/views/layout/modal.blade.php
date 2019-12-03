@@ -92,6 +92,7 @@
     <div class="modal-content">
     
       <div class="modal-body">
+    
         <img src="" id="show-box-modal-img" alt="" class="current">
         <div class="product-price"><span id="show-box-modal-price"></span> грн.</div>
         <div id="show-box-modal-name" ></div>
