@@ -1,11 +1,8 @@
 <?php
 
 return  [
-	        1 => [
-		        	'images' => [
-		        		'images/boxes/Santa_box/santabox.jpg',
-		        		'images/background/santabox1.jpg',
-		        	],
+	        1 => [	
+	        		'sm_img' => 'images/boxes/Santa_box/santabox.jpg',
 		        	'full_images' => [
 		        		'images/full_images/Santa_box/1.jpeg',
 		        		'images/full_images/Santa_box/2.jpeg',
@@ -20,11 +17,8 @@ return  [
 					        officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
 					        Brunch',
 		        ],
-	        2 => [
-		        	'images' => [
-		        		'images/boxes/Newyear_box/1.jpg',
-		        		'images/background/newyear1.jpg',
-		        	],
+	        2 => [	
+	        		'sm_img' => 'images/boxes/Newyear_box/1.jpg',
 		        	'full_images' => [
 		        		'images/full_images/Newyear_box/1.jpeg',
 		        		'images/full_images/Newyear_box/2.jpeg',
@@ -35,11 +29,8 @@ return  [
 		        	'active' => true,
 		        	'text' => 'Что внутри:',
 		        ], 
-	        3 => [
-		        	'images' => [
-		        		'images/boxes/Pink_mood/1.jpg',
-		        		'images/background/1.jpg',
-		        	],
+	        3 => [	
+	        		'sm_img' => 'images/boxes/Pink_mood/1.jpg',
 		        	'full_images' => [
 		        		'images/full_images/Pink_mood/1.jpg',
 		        		'images/full_images/Pink_mood/2.jpg',
@@ -50,11 +41,8 @@ return  [
 		        	'active' => true,
 		        	'text' => 'Что внутри',
 	        	],
-	        4 => [
-		        	'images' => [
-		        		'images/boxes/For_her/1.jpg',
-		        		'images/background/6.jpg',
-		        	],
+	        4 => [	
+	        		'sm_img' => 'images/boxes/For_her/1.jpg',
 		        	'full_images' => [
 		        		'images/full_images/For_her/1.jpeg',
 		        		'images/full_images/For_her/2.jpeg',
@@ -65,11 +53,8 @@ return  [
 		        	'active' => true,
 		        	'text' => 'Что внутри:',
 	        	],
-	        5 => [
-		        	'images' => [
-		        		'images/boxes/For_mom/1.jpg',
-		        		'images/background/formom1.jpg',
-		        	],
+	        5 => [	
+	        		'sm_img' => 'images/boxes/For_mom/1.jpg',
 		        	'full_images' => [
 		        		'images/full_images/For_mom/2.jpeg',
 		        		'images/full_images/For_mom/1.jpeg',
@@ -80,11 +65,8 @@ return  [
 		        	'active' => true,
 		        	'text' => 'Что внутри:',
 	        	],
-	        6 => [
-		        	'images' => [
-		        		'images/boxes/Good_idea/goodidea.jpg',
-		        		'images/background/goodidea1.jpg',
-		        	],
+	        6 => [	
+	        		'sm_img' => 'images/boxes/Good_idea/goodidea.jpg',
 		        	'full_images' => [
 		        		'images/full_images/Good_idea/1.jpeg',
 		        		'images/full_images/Good_idea/2.jpeg',
@@ -99,11 +81,8 @@ return  [
 				        officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
 				        Brunch',
 	        	],
-	        7 => [
-		        	'images' => [
-		        		'images/boxes/Romantic_box/1.jpg',
-		        		'images/background/romanticbox1.jpg',
-		        	],
+	        7 => [	
+	        		'sm_img' => 'images/boxes/Romantic_box/1.jpg',
 		        	'full_images' => [
 		        		'images/full_images/Romantic_box/1.jpeg',
 		        		'images/full_images/Romantic_box/2.jpeg',
@@ -118,11 +97,8 @@ return  [
 				        officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
 				        Brunch',
 		        ], 
-	        8 => [
-		        	'images' => [
-		        		'images/boxes/For_him/1.jpg',
-		        		'images/background/2.jpg',
-		        	],
+	        8 => [	
+	        		'sm_img' => 'images/boxes/For_him/1.jpg',
 		        	'full_images' => [
 		        		'images/full_images/For_him/4.jpeg',
 		        		'images/full_images/For_him/2.jpeg',
@@ -133,11 +109,8 @@ return  [
 		        	'active' => true,
 		        	'text' => 'Что внутри:',
 	        	], 
-		    9 => [
-		        	'images' => [
-		        		'images/boxes/Calendar_box/1.jpg',
-		        		'images/background/calendarbox.jpg',
-		        	],
+		    9 => [	
+		    		'sm_img' => 'images/boxes/Calendar_box/1.jpg',
 		        	'full_images' => [
 		        		'images/full_images/Calendar_box/1.jpeg',
 		        		'images/full_images/Calendar_box/2.jpeg',
@@ -152,11 +125,8 @@ return  [
 					        officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
 					        Brunch',
 		        ], 
-		    10 => [
-		        	'images' => [
-		        		'images/boxes/Comfort_box/3.jpg',
-		        		'images/background/3.jpg',
-		        	],
+		    10 => [	
+		    		'sm_img' => 'images/boxes/Comfort_box/3.jpg',
 		        	'full_images' => [
 		        		'images/full_images/Comfort_box/1.jpeg',
 		        		'images/full_images/Comfort_box/2.jpeg',
@@ -168,10 +138,7 @@ return  [
 		        	'text' => 'Что внутри',
 	        	],  
 	        11 => [
-		        	'images' => [
-		        		'images/boxes/B_box/1.jpg',
-		        		'images/background/7.jpg',
-		        	],
+	        		'sm_img' => 'images/boxes/B_box/1.jpg',
 		        	'full_images' => [
 		        		'images/full_images/B_box/1.jpeg',
 		        		'images/full_images/B_box/2.jpeg',

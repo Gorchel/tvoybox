@@ -1,7 +1,7 @@
 $(document).ready(function() {
-	$('body').on('click','.show_box',function() {
+	$('body').on('click','.portfolio-item',function() {
 		var id = $(this).data('id'),
-			modal = $('#show-box-modal');
+			modal = $('#box-modal');
 
 		jQuery.ajax({
 	        type: "get",
@@ -21,10 +21,20 @@ $(document).ready(function() {
 	            };
 	        }
 	    });		
-	})
-
-	$('#audio-logo').on('click',function(){
-		var audio = document.getElementById('audio');
-		audio.play();
+	});
+	
+	var partners = new Swiper('.recomendacions.swiper-container', {
+		slidesPerView: 4,
+		spaceBetween: 15,
+		autoplay: true,
+		loop: true,
+		breakpoints: {
+			991: {
+				slidesPerView: 3
+            },
+			767: {
+				slidesPerView: 1
+            }
+        }
 	});
 });

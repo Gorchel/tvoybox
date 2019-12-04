@@ -36,7 +36,7 @@ h6 {
 }
 
 .page-section {
-  padding: 100px 0;
+  padding: 75px 0;
 }
 
 .page-section h2.section-heading {
@@ -56,7 +56,7 @@ h6 {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 75px 0;
   }
 }
 
@@ -173,7 +173,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -227,12 +227,13 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
-#portfolio .portfolio-item {
+.portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
+  cursor: pointer;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+.portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
   max-width: 400px;
@@ -240,7 +241,11 @@ header.masthead .intro-text .intro-heading {
   cursor: pointer;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+.portfolio .portfolio-item .portfolio-link img {
+  width: 100%;
+}
+
+.portfolio .portfolio-item .portfolio-link .portfolio-hover {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -249,11 +254,11 @@ header.masthead .intro-text .intro-heading {
   background: rgba(254, 209, 54, 0.9);
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+.portfolio .portfolio-item:hover .portfolio-link .portfolio-hover {
   opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -264,16 +269,16 @@ header.masthead .intro-text .intro-heading {
   color: white;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
+.portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
   padding: 25px;
@@ -281,24 +286,24 @@ header.masthead .intro-text .intro-heading {
   background-color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
+.portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+.portfolio .portfolio-item .portfolio-caption p {
   font-size: 16px;
   font-style: italic;
   margin: 0;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-#portfolio * {
+.portfolio * {
   z-index: 2;
 }
 
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  .portfolio .portfolio-item {
     margin: 0 0 30px;
   }
 }
@@ -586,9 +591,10 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/contact.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
+  background-size: cover;
 }
 
 section#contact .section-heading {
@@ -685,3 +691,27 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .color-yellow, .color-yellow:after {
   color: #fed136;
 }
+
+#navbarCartDropdownPanel {
+  background-color: #212529;
+  color: white;
+}
+
+.color-white {
+  color: white !important;
+}
+
+.color-yellow {
+  color: #fed136 !important;
+}
+
+.header-phone {
+  font-size: 12px;
+  padding-left: 25px;
+}
+
+.pay-block .icon {
+    padding: 40px;
+    border: 4px solid #fed136;
+}
+
