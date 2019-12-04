@@ -1,3 +1,55 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img src="img/logo/logo_white.png" alt="" class="tvoybox">
+
+        Tvoy Box
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Мы рекомендуем</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#ищчуы">Наши боксики</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#process">Процесс</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Команда</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">О нас</a>
+          </li>
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle color-yellow" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-shopping-cart color-yellow"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  @include('layout.partial.cart')
+                </div>
+            </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+<!-- Header -->
+<header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in text-uppercase">Добро пожаловать!</div>
+        <div class="intro-heading">Сегодня вы найдете лучший подарок для своих близких</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Узнать больше</a>
+      </div>
+    </div>
+</header>
+
 <header id="header" class="awe-menubar-header">
             <nav class="awemenu-nav" data-responsive-width="1200">
                 <div class="container">
