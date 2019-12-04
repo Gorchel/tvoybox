@@ -44,7 +44,7 @@
     </section>
     <!-- /section -->
 
-    <div class="container">
+    <div class="container ourboxmain">
         <div class="arrivals">
             <div class="section-header center">
                 <h2><a name="ourbox"> Наши Боксики</a></h2>
@@ -112,7 +112,7 @@
 
     <section>
 
-        <div class="container">
+        <div class="container ourinstruction">
 
             <div class="padding-vertical-60">
              <!--Accordion wrapper-->
@@ -126,7 +126,7 @@
       <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseTwo1"
         aria-expanded="false" aria-controls="collapseTwo1">
         <h5 class="mb-0 menulist">
-          Доставка   <i class="fa fa-plus plusicon" aria-hidden="true"></i>
+         <p> Доставка   <i class="fa fa-plus plusicon razvorot" aria-hidden="true"></i></p>
         </h5>
       </a>
     </div>
@@ -213,181 +213,9 @@
 
 </div>
 <!-- Accordion wrapper -->
-                <div class="section-header">
-                    <h2>News</h2>
-                </div>
-
-                <div class="section-content">
-                    <div class="home-section-posts owl-carousel">
-
-                        <div class="section-post">
-                            <div class="section-post-media">
-                                <a href="#" title="San Francisco Felt Pennant">
-                                    <img src="html/hosoren/img/samples/posts/index/1.jpg" alt="">
-                                </a>
-                            </div>
-
-                            <div class="section-post-body">
-                                <div class="section-post-time">
-                                    <span>26</span>  <small>August</small>
-                                </div>
-
-                                <h4 class="section-post-title">
-                        <a href="#" title="San Francisco Felt Pennant">San Francisco Felt Pennant</a>
-                    </h4>
-
-                                <p class="section-post-excerpt">Lorem Ipsum is simply dummy text of the printing and typeseting industry.</p>
-
-                                <a href="#" title="" class="read-more">Read more</a>
-                            </div>
-                        </div>
-
-                        <div class="section-post">
-                            <div class="section-post-media">
-                                <a href="#" title="San Francisco Felt Pennant">
-                                    <img src="html/hosoren/img/samples/posts/index/2.jpg" alt="">
-                                </a>
-                            </div>
-
-                            <div class="section-post-body">
-                                <div class="section-post-time">
-                                    <span>18</span>  <small>August</small>
-                                </div>
-
-                                <h4 class="section-post-title">
-                        <a href="#" title="San Francisco Felt Pennant">San Francisco Felt Pennant</a>
-                    </h4>
-
-                                <p class="section-post-excerpt">Lorem Ipsum is simply dummy text of the printing and typeseting industry.</p>
-
-                                <a href="#" title="" class="read-more">Read more</a>
-                            </div>
-                        </div>
-
-                        <div class="section-post">
-                            <div class="section-post-media">
-                                <a href="#" title="San Francisco Felt Pennant">
-                                    <img src="html/hosoren/img/samples/posts/index/1.jpg" alt="">
-                                </a>
-                            </div>
-
-                            <div class="section-post-body">
-                                <div class="section-post-time">
-                                    <span>26</span>  <small>August</small>
-                                </div>
-
-                                <h4 class="section-post-title">
-                        <a href="#" title="San Francisco Felt Pennant">San Francisco Felt Pennant</a>
-                    </h4>
-
-                                <p class="section-post-excerpt">Lorem Ipsum is simply dummy text of the printing and typeseting industry.</p>
-
-                                <a href="#" title="" class="read-more">Read more</a>
-                            </div>
-                        </div>
-
-                        <div class="section-post">
-                            <div class="section-post-media">
-                                <a href="#" title="San Francisco Felt Pennant">
-                                    <img src="html/hosoren/img/samples/posts/index/2.jpg" alt="">
-                                </a>
-                            </div>
-
-                            <div class="section-post-body">
-                                <div class="section-post-time">
-                                    <span>18</span>  <small>August</small>
-                                </div>
-
-                                <h4 class="section-post-title">
-                        <a href="#" title="San Francisco Felt Pennant">San Francisco Felt Pennant</a>
-                    </h4>
-
-                                <p class="section-post-excerpt">Lorem Ipsum is simply dummy text of the printing and typeseting industry.</p>
-
-                                <a href="#" title="" class="read-more">Read more</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
+                
     </section>
     <!-- /section -->
-
-    <section>
-        <div class="container">
-            <div class="margin-bottom-50">
-                <div class="subscible-wrapper subscible-inline">
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <h3 class="subscribe-title">Subscribe newsletter</h3>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="subscribe-comment">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <form method="GET" action="index.html" class="subscible-form">
-                                <div class="form-group">
-                                    <label class="sr-only" for="subscribe-email">Email</label>
-                                    <input type="email" placeholder="Enter your email address" class="form-control" id="subscribe-email">
-                                </div>
-
-                                <div class="form-submit">
-                                    <button class="btn btn-lg btn-primary" type="submit">Subscribe email</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- /.subscible-wrapper -->
-            </div>
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- /section -->
-
-    <section>
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="awe-media margin-bottom-20">
-                        <div class="awe-media-image">
-                            <a href="#">
-                                <img src="html/hosoren/img/samples/banners/home/home-banner-1.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- /.awe-media -->
-                </div>
-
-                <div class="col-md-6 col-sm-6">
-                    <div class="awe-media margin-bottom-20">
-                        <div class="awe-media-image">
-                            <a href="#">
-                                <img src="html/hosoren/img/samples/banners/home/home-banner-2.png" alt="">
-                            </a>
-                        </div>
-                        <!-- /.awe-media -->
-                    </div>
-                </div>
-            </div>
-            <!-- /.row -->
-
-        </div>
-        <!-- /.container -->
-
-    </section>
-    <!-- /section -->
-
+       
 </div>
 @overwrite

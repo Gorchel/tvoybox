@@ -10,6 +10,9 @@
 .menulist{
 	font-size: 31px;	
 font-family: 'Monoton', cursive;
+border-bottom: 2px solid #000;
+padding-bottom: 20px;
+padding-top: 20px;
 	
 }
 .plusicon{
@@ -33,4 +36,25 @@ font-family: 'Monoton', cursive;
 	display: inline-block;
 	padding-top: 20px;
 
+}
+.titlewidget{
+	font-size: 18px;
+	color: #fff;
+}
+.icons{
+	font-size: 30px;
+}
+.footername{
+	font-size: 30px !important;
+	font-family: 'Permanent Marker', cursive !important;
+}
+.ourboxmain{
+	margin-bottom: 150px;
+}
+.ourinstruction{
+margin-bottom: 150px;
+margin-top: 150px;
+}
+.show_box{
+	margin-bottom: 30px;
 }
