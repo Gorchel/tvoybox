@@ -221,22 +221,22 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Ваше ФИО" required="required" data-validation-required-message="Как к Вам обращаться?">
-                  <p class="help-block text-danger"></p>
+                  <input class="form-control" id="name" name="name" type="text" placeholder="Ваше ФИО" required="required" data-validation-required-message="Как к Вам обращаться?">
+                  <p class="help-block text-white"></p>
                 </div>
  <!--                <div class="form-group">
                   <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-                  <p class="help-block text-danger"></p>
+                  <p class="help-block text-white"></p>
                 </div> -->
                 <div class="form-group">
-                  <input class="form-control" id="phone" type="tel" placeholder="Ваш номер телефона" required="required" data-validation-required-message="Напишите свой номер телефона">
-                  <p class="help-block text-danger"></p>
+                  <input class="form-control" id="phone" name="phone" type="tel" placeholder="Ваш номер телефона" required="required" data-validation-required-message="Напишите свой номер телефона">
+                  <p class="help-block text-white"></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Ваше сообщение" required="required" data-validation-required-message="Напишите свое сообщение"></textarea>
-                  <p class="help-block text-danger"></p>
+                  <textarea class="form-control" id="message" name="message" placeholder="Ваше сообщение" required="required" data-validation-required-message="Напишите свое сообщение"></textarea>
+                  <p class="help-block text-white"></p>
                 </div>
               </div>
               <div class="clearfix"></div>

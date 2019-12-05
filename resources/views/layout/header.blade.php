@@ -37,7 +37,7 @@
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
-            </li>
+            </li>   
         </ul>
       </div>
     </div>
@@ -48,7 +48,7 @@
       <div class="intro-text">
         <div class="intro-lead-in text-uppercase">Добро пожаловать!</div>
         <div class="intro-heading">Сегодня вы найдете лучший подарок для своих близких</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Узнать больше</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#recomendations">Узнать больше</a>
       </div>
     </div>
 </header>

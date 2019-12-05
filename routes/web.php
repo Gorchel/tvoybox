@@ -12,5 +12,6 @@
 */
 
 Route::get('/', ['uses' => 'HomeController@index']);
+Route::post('/order', ['uses' => 'HomeController@order']);
 
 Route::get('box/{id}', ['uses' => 'BoxController@show']);

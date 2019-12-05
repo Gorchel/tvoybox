@@ -8,12 +8,19 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
+          <div class="col-lg-12 mx-auto">
             <div class="modal-body">
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase" id="show-box-modal-name"></h2>
               <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
-              <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+              <div class="row text-center swiper-container" id="modal-swiper">
+                <div class="swiper-wrapper">
+
+                </div>
+              </div>
+      <!--         <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div> -->
+
               <p id="show-box-modal-text"></p>
               <p><b><span id="show-box-modal-price"></span> грн.</b></p>
               <button class="btn btn-primary" data-dismiss="modal" type="button">
