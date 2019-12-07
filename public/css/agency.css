@@ -715,3 +715,35 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     border: 4px solid #fed136;
 }
 
+button.is_order {
+  border: 2px solid #1F252A;
+  transition: all ease 0.5s;
+  margin-left: 20px;
+}
+
+button.is_order:hover {
+  border-color: #fed136;
+  background-color: #fed136;
+  color: white;
+}
+
+#navbarCartDropdownPanel {
+  padding: 10px;
+}
+
+#navbarCartDropdownPanel span {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.text-normal {
+  text-transform: none;
+}
+
+.cart-counter {
+  position: relative;
+  top: 8px;
+  right: 5px;
+  padding-top: 4px;
+  border-radius: 10px;
+}

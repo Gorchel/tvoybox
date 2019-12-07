@@ -23,9 +23,12 @@
 
               <p id="show-box-modal-text"></p>
               <p><b><span id="show-box-modal-price"></span> грн.</b></p>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
+              <button class="btn btn-default" data-dismiss="modal" type="button">
                 <i class="fas fa-times"></i>
-                Заказать</button>
+                Закрыть</button>
+              <button class="btn btn-primary" id="is_order_modal" type="button">
+                <i class="fas fa-shopping-cart"></i>
+                Добавить в корзину</button>
             </div>
           </div>
         </div>

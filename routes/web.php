@@ -13,5 +13,8 @@
 
 Route::get('/', ['uses' => 'HomeController@index']);
 Route::post('/order', ['uses' => 'HomeController@order']);
+Route::get('add_to_cart/{id}', ['uses' => 'HomeController@addToCart']);
+Route::get('get_cart_count', ['uses' => 'HomeController@getCartCount']);
 
 Route::get('box/{id}', ['uses' => 'BoxController@show']);
+

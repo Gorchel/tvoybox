@@ -26,7 +26,11 @@
                               </a>
                               <div class="portfolio-caption">
                                 <h4>{{$box['name']}}</h4>
-                                <p class="text-muted">{{$box['price']}} грн</p>
+                                <hr/>
+                                <p class="text-muted">
+                                  <span>{{$box['price']}} грн</span>
+                                  <span><button class="btn btn-default is_order" data-id="{{$id}}">Заказать</button></span>
+                                </p> 
                               </div>
                             </div>
                         </article>
@@ -48,20 +52,22 @@
           <div class="row">
             @foreach (config('boxes') as $id => $box)
                 @if (!empty($box['active']))
-                    <div class="col-md-3 col-sm-6 portfolio-item">
-                        <div class="portfolio-item" data-id="{{$id}}">
-                          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                              <div class="portfolio-hover-content">
-                                <i class="fas fa-plus fa-3x"></i>
-                              </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item" data-id="{{$id}}">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                          <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                              <i class="fas fa-plus fa-3x"></i>
                             </div>
-                            <img class="img-fluid" src="{{$box['sm_img']}}" alt="">
-                          </a>
-                          <div class="portfolio-caption">
-                            <h4>{{$box['name']}}</h4>
-                            <p class="text-muted">{{$box['price']}} грн</p>
                           </div>
+                          <img class="img-fluid" src="{{$box['sm_img']}}" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                          <h4>{{$box['name']}}</h4>
+                          <hr/>
+                          <p class="text-muted">
+                            <span>{{$box['price']}} грн</span>
+                            <span><button class="btn btn-default is_order" data-id="{{$id}}">Заказать</button></span>
+                          </p>
                         </div>
                     </div>
                 @endif

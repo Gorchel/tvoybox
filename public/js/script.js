@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	updateCounter();
+
 	$('body').on('click','.portfolio-item',function() {
 		var id = $(this).data('id'),
 			modal = $('#box-modal'),
@@ -8,7 +10,7 @@ $(document).ready(function() {
 	        type: "get",
 	        url: '/box/' + id,
 	        success: function (data) {
-	            if (data['responce'] == 200) {
+	            if (data['response'] == 200) {
 	            	var box = data['box'];
 
 	            	// modal.find('#show-box-modal-img').eq(0).attr('src',box['full_images'][0]);
@@ -16,6 +18,7 @@ $(document).ready(function() {
 	            	modal.find('#show-box-modal-name').eq(0).html(box['name']);
 	            	modal.find('#show-box-modal-text').eq(0).html(box['text']);
 
+	            	modal.find('#is_order_modal').data('id', id);
 
 	            	wrapper.html('');
 
@@ -66,4 +69,45 @@ $(document).ready(function() {
             }
         }
 	});
+
+	jQuery('body').on('click','.is_order', function(e) {
+		e.stopPropagation();
+		var _this = jQuery(this);
+
+		addToCart(_this);
+	});
+
+	jQuery('body').on('click','#is_order_modal', function() {
+		var _this = jQuery(this);
+
+		addToCart(_this);
+
+		$('#box-modal').modal('hide');
+	});
 });
+
+function addToCart(_this) {
+	var id = _this.data('id');
+
+	jQuery.ajax({
+        type: "get",
+        url: '/add_to_cart/' + id,
+        success: function (data) {
+            updateCounter();
+        }
+    });			
+}
+
+function updateCounter() {
+	jQuery.ajax({
+        type: "get",
+        url: '/get_cart_count/',
+        success: function (count) {
+        	if (count > 0) {
+        		jQuery('#cart-counter-ajax').html('<span class="badge badge-danger cart-counter">' + count + '</span>');
+        	} else {
+        		jQuery('#cart-counter-ajax').html('');
+        	}
+        }
+    });		
+}

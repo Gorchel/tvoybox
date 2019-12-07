@@ -9,9 +9,9 @@ class BoxController extends Controller
 {
     public function show(Request $request, $id) {
     	if (!isset(config('boxes')[$id])) {
-    		return ['responce' => 404];
+    		return ['response' => 404];
     	}
 
-    	return ['responce' => 200, 'box' => config('boxes')[$id]];
+    	return ['response' => 200, 'box' => config('boxes')[$id]];
     }
 }

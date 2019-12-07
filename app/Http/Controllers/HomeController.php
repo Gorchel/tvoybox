@@ -9,8 +9,8 @@ use App\Order;
 class HomeController extends Controller
 {
     public function index() {
-    	\Cart::add('293ad', 'Product 1', 1, 9.99);
-
+    	// \Cart::destroy();
+        // dd(\Cart::content());
     	return view('home');
     }
 
@@ -26,5 +26,21 @@ class HomeController extends Controller
     		return response($order, 400)
     			->header('Content-Type', 400);
     	}
+    }
+
+    public function addToCart(Request $request, $id) {
+        if (!isset(config('boxes')[$id])) {
+            return ['response' => 404];
+        }
+
+        $box = config('boxes')[$id];
+        
+        \Cart::add($id, $box['name'], 1, $box['price']);
+
+        return ['response' => 200];
+    }
+
+    public function getCartCount() {
+        return \Cart::count();
     }
 }
