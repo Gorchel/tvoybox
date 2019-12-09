@@ -12,9 +12,11 @@
 */
 
 Route::get('/', ['uses' => 'HomeController@index']);
-Route::post('/order', ['uses' => 'HomeController@order']);
+Route::post('/order/{callback?}', ['uses' => 'HomeController@order']);
 Route::get('add_to_cart/{id}', ['uses' => 'HomeController@addToCart']);
-Route::get('get_cart_count', ['uses' => 'HomeController@getCartCount']);
+Route::get('get_cart', ['uses' => 'HomeController@getCart']);
+Route::get('delete_item/{id}', ['uses' => 'HomeController@delete_item']);
+Route::get('update_count/{id}', ['uses' => 'HomeController@update_count']);
 
 Route::get('box/{id}', ['uses' => 'BoxController@show']);
 

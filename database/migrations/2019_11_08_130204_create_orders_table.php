@@ -18,7 +18,7 @@ class CreateOrdersTable extends Migration
             $table->string('client_name')->nullable();
             $table->string('client_phone')->nullable();
             $table->string('client_email')->nullable();
-            $table->string('client_address')->nullable();
+            $table->text('client_address')->nullable();
             $table->text('text')->nullable();
             $table->timestamps();
         });

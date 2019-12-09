@@ -23,7 +23,7 @@ $(function() {
       var serialize_data = $('#contactForm').serialize();
 
       $.ajax({
-        url: "/order",
+        url: "/order/contact_me",
         type: "POST",
         data: serialize_data,
         cache: false,

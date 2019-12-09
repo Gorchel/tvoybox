@@ -309,8 +309,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
+  /*margin: 1rem;
+  max-width: 100vw;*/
 }
 
 .portfolio-modal .modal-content {
@@ -747,3 +747,63 @@ button.is_order:hover {
   padding-top: 4px;
   border-radius: 10px;
 }
+
+.mg-20 {
+   margin-bottom: 20px;
+}
+
+.mg-10 {
+   margin-bottom: 10px;
+}
+
+.modal-dissmiss-btn {
+  border: 2px solid #1F252A;
+  transition: all ease 0.5s;
+}
+
+button.modal-dissmiss-btn:hover {
+  border-color: #fed136;
+  background-color: #fed136;
+  color: white;
+}
+
+#cart-modal .section-heading {
+  font-style: italic;
+}
+
+#cart-modal .cart-img {
+  width: 100%;
+}
+
+.remove-item {
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.remove-item:hover {
+  color: #fed136;
+}
+
+.counter-action {
+  cursor: pointer;
+  transition: all ease 0.5s;
+  opacity: 0.5;
+}
+
+.counter-action i {
+  transition: all ease 0.5s;
+}
+
+.counter-action:hover {
+  opacity: 1;
+}
+
+.counter-action:hover i {
+  color: #fed136;
+}
+
+.counter-text {
+  margin: 0px 20px;
+}
+
+

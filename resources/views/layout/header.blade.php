@@ -28,7 +28,7 @@
          <!--    <a class="nav-link js-scroll-trigger" href="#contact">О нас</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">
+            <a class="nav-link js-scroll-trigger" href="#" data-toggle="modal" data-target="#cart-modal">
               <i class="fas fa-shopping-cart color-yellow"></i>
               
               <span id="cart-counter-ajax">
