@@ -76,12 +76,11 @@
       </div>
     </section>
 
-    <section id="about">
+    <!-- <section id="about">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
               <h2 class="section-heading text-uppercase text-muted">Заказывая у нас Вы получаете:</h2><br/>
-              <!-- <h3 class="section-subheading text-muted text-uppercase">Заказывая у нас Вы получаете:</h3> -->
             </div>
           </div>
           <div class="row">
@@ -94,7 +93,6 @@
                   <div class="timeline-panel">
                     <div class="timeline-heading">
                       <h4>Оригинальность подарка</h4>
-                      <!-- <h4 class="subheading">Our Humble Beginnings</h4> -->
                     </div>
                     <div class="timeline-body">
                       <p class="text-muted">Каждый подарок собран с любовью и каждый оригинален по своему, можно найти абсолютно для любого человека</p>
@@ -107,7 +105,6 @@
                   </div>
                   <div class="timeline-panel">
                     <div class="timeline-heading">
-                      <!-- <h4>March 2011</h4> -->
                       <h4 class="subheading">Экономия Вашего времени</h4>
                     </div>
                     <div class="timeline-body">
@@ -154,7 +151,7 @@
             </div>
           </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="bg-light page-section" id="pay">
         <div class="container">
@@ -199,7 +196,8 @@
                 <p>
                     <i class="icon rounded-circle fas fa-reply fa-4x"></i>
                 </p>
-                <h4>Обмен и возврат</h4><br/>
+                <h4>Возврат</h4><br/>
+                <p class="text-muted">При отказe от заказа возврат денег осуществляется в размере 50% от суммы заказа.</p>
                <!--  <p class="text-muted">Доставка производится по всей Украине</p>
                 <hr/> 
                 <p class="text-muted">Доставка по Украине осуществляется Новой Почтой в течении 2 суток</p>

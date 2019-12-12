@@ -806,4 +806,38 @@ button.modal-dissmiss-btn:hover {
   margin: 0px 20px;
 }
 
+#box-modal .swiper-pagination {
+  position: relative;
+  top: -50px;
+}
+
+#box-modal .swiper-pagination .swiper-pagination-bullet {
+  background: white;
+}
+
+#box-modal .swiper-pagination .swiper-pagination-bullet-active {
+  background: #fed136;
+}
+
+#box-modal .swiper-slide {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+#box-modal .swiper-button-next {
+  color: #fed136;
+}
+
+#box-modal .swiper-button-prev {
+  color: #fed136;
+}
+
+
+
+
+
+
+    
+
 

@@ -15,11 +15,13 @@
               <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
               <div class="row text-center swiper-container" id="modal-swiper">
                 <div class="swiper-wrapper">
-
+         
                 </div>
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+               <!--  <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
               </div>
-      <!--         <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div> -->
 
               <p id="show-box-modal-text"></p>
               <p><b><span id="show-box-modal-price"></span> грн.</b></p>

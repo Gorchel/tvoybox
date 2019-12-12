@@ -18,9 +18,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#boxes">Наши боксики</a>
           </li>
-          <li class="nav-item">
+        <!--   <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">Процесс</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#pay">Доставка / Оплата</a>
           </li>
