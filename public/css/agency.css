@@ -825,6 +825,12 @@ button.modal-dissmiss-btn:hover {
     background-position: center;
 }
 
+@media (max-width: 768px) {
+  #box-modal .swiper-slide {
+    height: 400px;
+  }
+}
+
 #box-modal .swiper-button-next {
   color: #fed136;
 }
