@@ -2,8 +2,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="img/logo/logo_white.png" alt="" class="tvoybox">
-
         Tvoy Box
       </a>
       <span class="header-phone"><a href="tel:+380932405414">+38 (093) 240-54-14</a></span>

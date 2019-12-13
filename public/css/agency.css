@@ -369,7 +369,7 @@ header.masthead .intro-text .intro-heading {
   margin-left: 35px;
   /* IE 9 */
   transform: rotate(45deg);
-  background-color: #212529;
+  background-color: #fed136;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -379,7 +379,7 @@ header.masthead .intro-text .intro-heading {
   height: 30px;
   /* IE 9 */
   transform: rotate(90deg);
-  background-color: #212529;
+  background-color: #fed136;
 }
 
 .timeline {
@@ -833,6 +833,31 @@ button.modal-dissmiss-btn:hover {
   color: #fed136;
 }
 
+.fs20 {
+  font-size: 20px;
+}
+
+#box-modal ul {
+  font-style: italic;
+  text-align: left;
+}
+
+#box-modal .modal-content {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.pd-null {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.pd-15 {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 
 

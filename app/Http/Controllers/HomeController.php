@@ -10,7 +10,6 @@ class HomeController extends Controller
 {
     public function index() {
     	// \Cart::destroy();
-
     	return view('home');
     }
 
