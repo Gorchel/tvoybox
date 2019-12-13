@@ -272,10 +272,10 @@ return  [
 		        	'text' => 'Что внутри',
 	        	],
 	        17 => [
-	        		'sm_img' => 'images/boxes/Beaty_box/1.jpg',
+	        		'sm_img' => 'images/boxes/beaty_box/1.jpg',
 		        	'full_images' => [
-		        		'images/full_images/Beaty_box/1.jpeg',
-		        		'images/full_images/Beaty_box/2.jpeg',
+		        		'images/full_images/beaty_box/1.jpeg',
+		        		'images/full_images/beaty_box/2.jpeg',
 		        	],
 		        	'name' => 'Beauty Box',
 		        	'price' => 549,
