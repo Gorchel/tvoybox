@@ -1,27 +1,30 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="">
-    <meta name="author" content="Pixelparty">
-    <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <title>Tvoybox</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Tvoybox">
+  <meta name="author" content="Tvoybox">
 
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,700,400italic,700italic&amp;subset=latin,vietnamese">
+  <title>Tvoybox</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <meta name="csrf-token" content="{{ csrf_token() }}" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/swiper.min.css" rel="stylesheet">
+  <link href="css/agency.css" rel="stylesheet">
 
     @section('css')
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,700,400italic,700italic&amp;subset=latin,vietnamese">
-
-        <link rel="stylesheet" href="css/bootstrap.css">
-
-        <link rel="stylesheet" href="css/plugins.css">
-
-        <link rel="stylesheet" href="css/styles.css">
-
         @yield('css')
     @show
 </head>
@@ -29,59 +32,31 @@
 
 @include('layout.header')
 
-<!-- // LOADING -->
-    <div class="awe-page-loading">
-        <div class="awe-loading-wrapper">
-            <div class="awe-loading-icon">
-                <span class="icon icon-logo"></span>
-            </div>
+@section("content")
 
-            <div class="progress">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-        </div>
-    </div>
-    <!-- // END LOADING -->
-
-
-    <div id="wrapper">
-        @section("content")
-
-        @show
-    </div>
-    
+@show
 
 @include('layout.footer')
 
 @include('layout.modal')
 
 @section('js')
-    <script src="js/vendor.js"></script>
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script>
-        window.SHOW_LOADING = false;
-    </script>
+    <!-- Plugin JavaScript -->
+    <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <script>
-        $(function() {
-            $('a[href="#login-popup"]').magnificPopup({
-                type:'inline',
-                midClick: false,
-                closeOnBgClick: false
-            });
-        });
-    </script>
+    <script src="/js/swiper.min.js"></script>
 
+    <!-- Contact form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <script src="/js/contact_me.js"></script>
 
+    <!-- Custom scripts for this template -->
+    <script src="/js/agency.min.js"></script>
 
-    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-
-    <script src="js/plugins.js"></script>
-
-    <script src="js/main.js"></script>
-
-    <script src="js/docs.js"></script>
+    <script src="/js/script.js"></script>
 
     @yield('javascript')
 @show

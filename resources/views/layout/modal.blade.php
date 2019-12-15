@@ -1,90 +1,72 @@
-<!-- /#wrapper -->
-
-
-    <div id="login-popup" class="white-popup login-popup mfp-hide">
-        <div role="tabpanel">
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active">
-                    <a href="#account-login" aria-controls="account-login" role="tab" data-toggle="tab">Account Login</a>
-                </li>
-
-                <li role="presentation">
-                    <a href="#account-register" aria-controls="account-register" role="tab" data-toggle="tab">Register</a>
-                </li>
-            </ul>
-            <!-- /.nav -->
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="account-login">
-                    <form action="index.html" method="POST">
-                        <div class="form-group">
-                            <label for="login-account">Account</label>
-                            <input type="text" class="form-control" id="login-account">
-                        </div>
-                        <!-- /.form-group -->
-
-                        <div class="form-group">
-                            <label for="login-password">Password</label>
-                            <input type="password" class="form-control" id="login-password" data-show-password="true">
-                        </div>
-                        <!-- /.form-group -->
-
-                        <div class="forgot-passwd">
-                            <a href="#" title="">
-                                <i class="icon icon-key"></i>
-                                <span>Forgot your password?</span>
-                            </a>
-                        </div>
-                        <!-- /.forgot-passwd -->
-
-                        <div class="form-button">
-                            <button type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
-                        </div>
-                        <!-- /.form-group -->
-                    </form>
-                </div>
-                <!-- /.tab-pane -->
-
-                <div role="tabpanel" class="tab-pane" id="account-register">
-                    <form action="index.html" method="POST">
-                        <div class="form-group">
-                            <label for="register-username">Username <sup>*</sup>
-                            </label>
-                            <input type="text" class="form-control" id="register-username">
-                        </div>
-                        <!-- /.form-group -->
-
-                        <div class="form-group">
-                            <label for="register-email">Email <sup>*</sup>
-                            </label>
-                            <input type="text" class="form-control" id="register-email">
-                        </div>
-                        <!-- /.form-group -->
-
-                        <div class="form-group">
-                            <label for="register-password">Password <sup>*</sup>
-                            </label>
-                            <input type="password" class="form-control" id="register-password">
-                        </div>
-                        <!-- /.form-group -->
-
-                        <div class="form-group">
-                            <label for="register-confirm-password">Confirm Password <sup>*</sup>
-                            </label>
-                            <input type="password" class="form-control" id="register-confirm-password">
-                        </div>
-                        <!-- /.form-group -->
-
-                        <div class="form-button">
-                            <button type="submit" class="btn btn-lg btn-warning btn-block">Register</button>
-                        </div>
-                        <!-- /.form-button -->
-                    </form>
-                </div>
-                <!-- /.tab-pane -->
-            </div>
-            <!-- /.tab-content -->
+<div class="portfolio-modal modal fade" id="box-modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+ <!--      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
         </div>
+      </div> -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto pd-null">
+            <div class="modal-body pd-null">
+              <div class="row text-center swiper-container" id="modal-swiper">
+                <div class="swiper-wrapper">
+         
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+               <!--  <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+              </div>
+              
+              <div class="pd-15"> 
+                <h3 class="text-uppercase" id="show-box-modal-name"></h3>
+                <p id="show-box-modal-text"></p>
+                <p class="fs20"><b><span id="show-box-modal-price"></span> грн.</b></p>
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                    <button class="btn btn-primary mg-20" id="is_order_modal" type="button">
+                      <i class="fas fa-shopping-cart"></i>
+                      Добавить в корзину</button>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                      <button class="btn btn-default modal-dissmiss-btn" data-dismiss="modal" type="button">
+                      <i class="fas fa-times"></i>
+                      Закрыть</button>
+                    </div>
+                </div>   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="cart-modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase color-yellow">Ваша корзина</h2>
+              <hr/>
+              <div class="text-center" id="cart-body-modal">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
